@@ -127,15 +127,12 @@ brew "vim"
 brew "watchman"
 brew "zsh"
 
-# Heroku
-brew "heroku"
-brew "parity"
-
 # GitHub
 brew "hub"
 
 # Image manipulation
 brew "imagemagick"
+brew "vips"
 
 # Testing
 brew "qt@5.5" if MacOS::Xcode.installed?
